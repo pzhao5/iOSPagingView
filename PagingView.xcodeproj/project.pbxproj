@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38387018198421DD00E7DD68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38387017198421DD00E7DD68 /* Foundation.framework */; };
+		3838701A198421DD00E7DD68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38387019198421DD00E7DD68 /* CoreGraphics.framework */; };
+		3838701C198421DD00E7DD68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3838701B198421DD00E7DD68 /* UIKit.framework */; };
+		38387022198421DD00E7DD68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38387020198421DD00E7DD68 /* InfoPlist.strings */; };
+		38387024198421DD00E7DD68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387023198421DD00E7DD68 /* main.m */; };
+		38387028198421DD00E7DD68 /* PPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387027198421DD00E7DD68 /* PPAppDelegate.m */; };
+		3838702B198421DD00E7DD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38387029198421DD00E7DD68 /* Main.storyboard */; };
+		3838702E198421DD00E7DD68 /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838702D198421DD00E7DD68 /* PPViewController.m */; };
+		38387030198421DD00E7DD68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3838702F198421DD00E7DD68 /* Images.xcassets */; };
+		38387037198421DE00E7DD68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38387036198421DE00E7DD68 /* XCTest.framework */; };
+		38387038198421DE00E7DD68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38387017198421DD00E7DD68 /* Foundation.framework */; };
+		38387039198421DE00E7DD68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3838701B198421DD00E7DD68 /* UIKit.framework */; };
+		38387041198421DE00E7DD68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3838703F198421DE00E7DD68 /* InfoPlist.strings */; };
+		38387043198421DE00E7DD68 /* PagingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387042198421DE00E7DD68 /* PagingViewTests.m */; };
+		3838704E198421F000E7DD68 /* PPPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838704D198421F000E7DD68 /* PPPagingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3838703A198421DE00E7DD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3838700C198421DD00E7DD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38387013198421DD00E7DD68;
+			remoteInfo = PagingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38387014198421DD00E7DD68 /* PagingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38387017198421DD00E7DD68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38387019198421DD00E7DD68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3838701B198421DD00E7DD68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3838701F198421DD00E7DD68 /* PagingView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagingView-Info.plist"; sourceTree = "<group>"; };
+		38387021198421DD00E7DD68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38387023198421DD00E7DD68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38387025198421DD00E7DD68 /* PagingView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PagingView-Prefix.pch"; sourceTree = "<group>"; };
+		38387026198421DD00E7DD68 /* PPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPAppDelegate.h; sourceTree = "<group>"; };
+		38387027198421DD00E7DD68 /* PPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPAppDelegate.m; sourceTree = "<group>"; };
+		3838702A198421DD00E7DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3838702C198421DD00E7DD68 /* PPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPViewController.h; sourceTree = "<group>"; };
+		3838702D198421DD00E7DD68 /* PPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
+		3838702F198421DD00E7DD68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38387035198421DE00E7DD68 /* PagingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38387036198421DE00E7DD68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3838703E198421DE00E7DD68 /* PagingViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagingViewTests-Info.plist"; sourceTree = "<group>"; };
+		38387040198421DE00E7DD68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38387042198421DE00E7DD68 /* PagingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagingViewTests.m; sourceTree = "<group>"; };
+		3838704C198421F000E7DD68 /* PPPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPagingView.h; sourceTree = "<group>"; };
+		3838704D198421F000E7DD68 /* PPPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPagingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38387011198421DD00E7DD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3838701A198421DD00E7DD68 /* CoreGraphics.framework in Frameworks */,
+				3838701C198421DD00E7DD68 /* UIKit.framework in Frameworks */,
+				38387018198421DD00E7DD68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38387032198421DE00E7DD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38387037198421DE00E7DD68 /* XCTest.framework in Frameworks */,
+				38387039198421DE00E7DD68 /* UIKit.framework in Frameworks */,
+				38387038198421DE00E7DD68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3838700B198421DD00E7DD68 = {
+			isa = PBXGroup;
+			children = (
+				3838701D198421DD00E7DD68 /* PagingView */,
+				3838703C198421DE00E7DD68 /* PagingViewTests */,
+				38387016198421DD00E7DD68 /* Frameworks */,
+				38387015198421DD00E7DD68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38387015198421DD00E7DD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38387014198421DD00E7DD68 /* PagingView.app */,
+				38387035198421DE00E7DD68 /* PagingViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38387016198421DD00E7DD68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38387017198421DD00E7DD68 /* Foundation.framework */,
+				38387019198421DD00E7DD68 /* CoreGraphics.framework */,
+				3838701B198421DD00E7DD68 /* UIKit.framework */,
+				38387036198421DE00E7DD68 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3838701D198421DD00E7DD68 /* PagingView */ = {
+			isa = PBXGroup;
+			children = (
+				38387026198421DD00E7DD68 /* PPAppDelegate.h */,
+				38387027198421DD00E7DD68 /* PPAppDelegate.m */,
+				38387029198421DD00E7DD68 /* Main.storyboard */,
+				3838702C198421DD00E7DD68 /* PPViewController.h */,
+				3838702D198421DD00E7DD68 /* PPViewController.m */,
+				3838704C198421F000E7DD68 /* PPPagingView.h */,
+				3838704D198421F000E7DD68 /* PPPagingView.m */,
+				3838702F198421DD00E7DD68 /* Images.xcassets */,
+				3838701E198421DD00E7DD68 /* Supporting Files */,
+			);
+			path = PagingView;
+			sourceTree = "<group>";
+		};
+		3838701E198421DD00E7DD68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3838701F198421DD00E7DD68 /* PagingView-Info.plist */,
+				38387020198421DD00E7DD68 /* InfoPlist.strings */,
+				38387023198421DD00E7DD68 /* main.m */,
+				38387025198421DD00E7DD68 /* PagingView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3838703C198421DE00E7DD68 /* PagingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				38387042198421DE00E7DD68 /* PagingViewTests.m */,
+				3838703D198421DE00E7DD68 /* Supporting Files */,
+			);
+			path = PagingViewTests;
+			sourceTree = "<group>";
+		};
+		3838703D198421DE00E7DD68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3838703E198421DE00E7DD68 /* PagingViewTests-Info.plist */,
+				3838703F198421DE00E7DD68 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38387013198421DD00E7DD68 /* PagingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38387046198421DE00E7DD68 /* Build configuration list for PBXNativeTarget "PagingView" */;
+			buildPhases = (
+				38387010198421DD00E7DD68 /* Sources */,
+				38387011198421DD00E7DD68 /* Frameworks */,
+				38387012198421DD00E7DD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagingView;
+			productName = PagingView;
+			productReference = 38387014198421DD00E7DD68 /* PagingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38387034198421DE00E7DD68 /* PagingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38387049198421DE00E7DD68 /* Build configuration list for PBXNativeTarget "PagingViewTests" */;
+			buildPhases = (
+				38387031198421DE00E7DD68 /* Sources */,
+				38387032198421DE00E7DD68 /* Frameworks */,
+				38387033198421DE00E7DD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3838703B198421DE00E7DD68 /* PBXTargetDependency */,
+			);
+			name = PagingViewTests;
+			productName = PagingViewTests;
+			productReference = 38387035198421DE00E7DD68 /* PagingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3838700C198421DD00E7DD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PP;
+				TargetAttributes = {
+					38387034198421DE00E7DD68 = {
+						TestTargetID = 38387013198421DD00E7DD68;
+					};
+				};
+			};
+			buildConfigurationList = 3838700F198421DD00E7DD68 /* Build configuration list for PBXProject "PagingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3838700B198421DD00E7DD68;
+			productRefGroup = 38387015198421DD00E7DD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38387013198421DD00E7DD68 /* PagingView */,
+				38387034198421DE00E7DD68 /* PagingViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38387012198421DD00E7DD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38387030198421DD00E7DD68 /* Images.xcassets in Resources */,
+				38387022198421DD00E7DD68 /* InfoPlist.strings in Resources */,
+				3838702B198421DD00E7DD68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38387033198421DE00E7DD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38387041198421DE00E7DD68 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38387010198421DD00E7DD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38387028198421DD00E7DD68 /* PPAppDelegate.m in Sources */,
+				3838702E198421DD00E7DD68 /* PPViewController.m in Sources */,
+				3838704E198421F000E7DD68 /* PPPagingView.m in Sources */,
+				38387024198421DD00E7DD68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38387031198421DE00E7DD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38387043198421DE00E7DD68 /* PagingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3838703B198421DE00E7DD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38387013198421DD00E7DD68 /* PagingView */;
+			targetProxy = 3838703A198421DE00E7DD68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38387020198421DD00E7DD68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38387021198421DD00E7DD68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38387029198421DD00E7DD68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3838702A198421DD00E7DD68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3838703F198421DE00E7DD68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38387040198421DE00E7DD68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38387044198421DE00E7DD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38387045198421DE00E7DD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38387047198421DE00E7DD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagingView/PagingView-Prefix.pch";
+				INFOPLIST_FILE = "PagingView/PagingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38387048198421DE00E7DD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagingView/PagingView-Prefix.pch";
+				INFOPLIST_FILE = "PagingView/PagingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3838704A198421DE00E7DD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PagingView.app/PagingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagingView/PagingView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PagingViewTests/PagingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3838704B198421DE00E7DD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PagingView.app/PagingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagingView/PagingView-Prefix.pch";
+				INFOPLIST_FILE = "PagingViewTests/PagingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3838700F198421DD00E7DD68 /* Build configuration list for PBXProject "PagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38387044198421DE00E7DD68 /* Debug */,
+				38387045198421DE00E7DD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38387046198421DE00E7DD68 /* Build configuration list for PBXNativeTarget "PagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38387047198421DE00E7DD68 /* Debug */,
+				38387048198421DE00E7DD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38387049198421DE00E7DD68 /* Build configuration list for PBXNativeTarget "PagingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3838704A198421DE00E7DD68 /* Debug */,
+				3838704B198421DE00E7DD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3838700C198421DD00E7DD68 /* Project object */;
+}
