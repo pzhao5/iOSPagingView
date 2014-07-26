@@ -3,6 +3,8 @@ iOSPagingView
 
 Utility view for combining UIScrollView and UIPageControl
 
+This repo is designed to copy into your workspace and modified the existed code to build new feature ontop of it.
+
 To use it:
 
 PPPagingView *v = [[PPPagingView alloc] initWithFrame:self.view.bounds];
