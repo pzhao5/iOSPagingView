@@ -6,6 +6,7 @@ Utility view for combining UIScrollView and UIPageControl
 To use it:
 
 PPPagingView *v = [[PPPagingView alloc] initWithFrame:self.view.bounds];
+
 UIView *v1 = [UIView alloc] init];
 v1.backgroundColor = [UIColor redColor];
 
